@@ -1,4 +1,4 @@
-# occupant-network
+# learning-occupant-network
 Tool for inferring occupant network structure from time-series sensor data. The novel tool is located in `interaction_model.py`. This repository, largely structured using Jupyter notebooks, contains the code for all analysis in the following paper:
 
 Andrew Sonta and Rishee K. Jain. (2020). "Learning socio-organizational network structure in buildings with ambient sensing data." _Data-Centric Engineering_. DOI:10.1017/dce.2020.9
