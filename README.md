@@ -1,5 +1,9 @@
 # occupant-network
-Tool for inferring occupant network structure from time-series sensor data
+Tool for inferring occupant network structure from time-series sensor data. The novel tool is located in `interaction_model.py`. This repository, largely structured using Jupyter notebooks, contains the code for all analysis in the following paper:
+
+Andrew Sonta and Rishee K. Jain. (2020). "Learning socio-organizational networks in buildings with ambient sensing data." _Data-Centric Engineering_. DOI:10.1017/dce.2020.9
+
+Note: Some notebooks use `R` code with IPython magic. We recommend using a virtual environment with the packages in `requirements.txt`.
 
 ## Notebook 1: Inferring activity states from clean data
 The first part of the workflow is clustering time-series sensor data to "activity states," which are abstractions of the sensor data that can be used to describe building occupant activities.
